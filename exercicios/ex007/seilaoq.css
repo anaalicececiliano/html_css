@@ -1,0 +1,58 @@
+ @charset "UTF-8";
+
+
+p{
+    text-align: center;
+
+}
+h1{
+
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+}
+
+a:visited{
+    color: #400101;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+
+div {
+    color: #D9A296;
+    text-align: center;
+    background-color: #400101;
+    border: 1px solid #D9A296;
+    height: 190px;
+    width:190px;
+    display: inline-block;
+}
+
+div > p {
+    display: none;
+}
+
+div:hover > p{
+    display: block;
+    color: rgb(214, 16, 32);
+
+}
+
+div:hover{
+    background-color: #D9A296;
+}
+
+ 
+body{
+    background-image: radial-gradient(circle, #D9A296,#400101);
+    background-attachment: fixed;
+    font-family: "Amarante", serif; 
+    font-weight: 400;
+    font-style: normal;
+}

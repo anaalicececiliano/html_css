@@ -1,0 +1,50 @@
+h1{
+    background-color:#991B5C;
+    padding: 30px;
+    margin: 7px;
+    box-shadow: 2px 2px 2px 2px #00000079;
+    border-radius: 10px;
+    max-width: 100%; 
+}
+
+body{
+    text-align: center;
+    background-image: radial-gradient(circle,#FF95D0,#981A69);
+    background-attachment: fixed;
+    font-family: "Amarante", serif; 
+    font-weight: 400;
+    font-style: normal;
+    margin:7px;
+}
+
+.tabela td {
+    padding:10px;
+    background-color:#FFBDE2;
+    min-width: 150px;
+    max-width: 100%;
+    height: 80px;
+    margin:7px auto;
+    box-shadow: 2px 2px 2px #00000065;
+    border-radius: 5px;
+}
+
+h3{
+    padding:10px;
+    background-color:#981A69;
+
+    max-width: 340px;
+    margin:7px auto;
+    display: inline-block; 
+    
+    box-shadow: 2px 2px 2px #00000057;
+    border-radius: 5px;
+}
+main{
+    min-width: 300px;
+    max-width: 900px;
+    margin: auto;
+    background-color: #FF95D0;
+    border-radius: 10px;
+
+}
+

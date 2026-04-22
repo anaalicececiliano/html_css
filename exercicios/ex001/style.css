@@ -1,0 +1,25 @@
+
+
+body {
+  background-image: radial-gradient(circle, rgb(212, 205, 205), rgb(66, 66, 66));
+  background-attachment: fixed;
+
+}
+h1, h2, h3,p{
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+#principal{
+
+  font-family: "Amarante", serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: aliceblue;
+
+
+}
+ .topo {
+    display: flex;              
+    align-items: center;  
+}
