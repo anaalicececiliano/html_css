@@ -1,0 +1,168 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Funnel Sans", sans-serif;
+    color: #333;
+}
+
+img {
+    width: 100%;
+    max-height: 250px;
+    object-fit: cover;
+}
+
+header h1 {
+    background: #f3d3c3;
+    color: #d94c7d;
+    padding: 5px;
+    border-radius: 10px;
+    display: inline-block;
+    font-size: 1.4em;
+    
+}
+
+
+.duas-colunas {
+    display: flex;
+    gap: 30px;
+    padding: 20px;
+    position: relative;
+}
+
+.duas-colunas section {
+    width: 50%;
+}
+
+.duas-colunas::before {
+   
+    position: absolute;
+    left: 50%;
+    top: 20px;
+    height: 90%;
+    width: 2px;
+    background: #f0a1b5;
+}
+
+
+section {
+    background: #fff;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.08);
+}
+
+/* TITULOS */
+section h2 {
+    background: #f3d3c3;
+    color: #d94c7d;
+    padding: 10px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+
+/* LISTAS */
+ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+/* CAIXA DE LEI */
+.caixa {
+    background: #fde3ea;
+    border: 2px solid #f3a1b5;
+    padding: 15px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+/* CONSCIENTIZAR */
+.conscientizar {
+    background: #ffe6ec;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.conscientizar h2 {
+    background: #d94c7d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.cards {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: #fff;
+    padding: 15px;
+    border-radius: 15px;
+    width: 180px;
+}
+
+/* COMO AJUDAR */
+.como-ajudar {
+    display: flex;
+    gap: 20px;
+    padding: 20px;
+}
+
+.como-ajudar section {
+    width: 60%;
+}
+
+.como-ajudar img {
+    width: 40%;
+    border-radius: 15px;
+}
+
+
+footer {
+    background: #f8cbd6;
+    padding: 15px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+
+.final {
+    background:#DF3B6A;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .duas-colunas,
+    .como-ajudar {
+        flex-direction: column;
+    }
+
+    .duas-colunas section,
+    .como-ajudar section,
+    .como-ajudar img {
+        width: 100%;
+    }
+
+    .duas-colunas::before {
+        display: none;
+    }
+}
